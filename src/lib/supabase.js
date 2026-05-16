@@ -7,3 +7,6 @@ export const supabase = createClient(
     supabaseUrl,
     supabasePublishableKey
 );
+
+console.log(supabaseUrl);
+console.log(supabasePublishableKey);
